@@ -1,0 +1,10 @@
+
+create database users;
+
+\use users:
+
+create table client (id int not null auto_increment, name char, password char, email char, primary key (client_id));
+
+insert into client (id int not null auto_increment, name char, password char, email char, primary key (client_id) values ('Екатерина', '12345', 'Moroz@mail.ru');
+insert into client (id int not null auto_increment, name char, password char, email char, primary key (client_id) values ('Полиночка', '67890', 'Violin@mail.ru');
+insert into client (id int not null auto_increment, name char, password char, email char, primary key (client_id) values ('Алиса', '13579', 'Celebrety@mail.ru');
